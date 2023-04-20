@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: XiongJum
+subtitle: 我的个人书签
 description: ''
 keywords:
-author: John Doe
+author: Xiong Jum
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://web.lain.buzz
-# root: /bookmark
+root: /bookmark
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
