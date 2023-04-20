@@ -28,9 +28,9 @@ githubCorner: '<a href="https://github.com/HCLonely/hexo-theme-webstack" class="
 
 expandAll: false
 menu:
-  - name: 测试页面
+  - name: 常用推荐
     icon: far fa-star
-    config: testPage
+    config: commonly
   - name: 常用工具
     icon: far fa-star
     config: hotTools
@@ -44,11 +44,20 @@ menu:
         icon: fas fa-blog
         config: myBlog
 
-testPage:
-  - name: Child Page
-    url: /child
+commonly:
+  - name: 哔哩哔哩
+    url: https://www.bilibili.com/
     img: /images/logos/myblog.png
-    description: 子页面测试
+    description: 子页面测试哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。
+  - name: 漫猫动漫BT下载
+    url: http://www.comicat.org/
+    img: /images/logos/myblog.png
+    description: 动画 漫画 Galgame 游戏 动漫音乐 片源 RAW BT下载站 BT分享页 BT发布页 字幕组 下载 Torrent
+  - name: ArchWiki
+    url: https://wiki.archlinux.org/
+    img: /images/logos/myblog.png
+    description: ArchLinux 的百科
+
 devTools:
   - name: Github
     url: https://github.com/

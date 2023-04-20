@@ -28,64 +28,221 @@ githubCorner: '<a href="https://github.com/HCLonely/hexo-theme-webstack" class="
 
 expandAll: false
 menu:
-  - name: 测试页面
+  - name: 常用推荐
     icon: far fa-star
-    config: testPage
-  - name: 常用工具
-    icon: far fa-star
-    config: hotTools
-  - name: 其他工具
-    icon: fas fa-tools
+    config: commonly
+  
+  - name: 影音娱乐
+    icon:
     submenu:
-      - name: 开发工具
-        icon: fas fa-tools
-        config: devTools
-      - name: 我的博客
-        icon: fas fa-blog
-        config: myBlog
+      - name: 影音
+        icon:
+        config: audio
+      - name: 游戏
+        icon:
+        config: games
+      - name: 图像
+        icon:
+        config: image
 
-testPage:
-  - name: Child Page
-    url: /child
-    img: /images/logos/myblog.png
-    description: 子页面测试
-devTools:
-  - name: Github
+  - name: 实用工具
+    icon: far fa-tools
+    config: tools
+
+  - name: 系统
+    icon: far fa-assistive-listening-systems
+    submenu:
+      - name: Arch
+        icon: fa fa-arch
+        config: archlinux
+
+  - name: 编程
+    icon: fa fa-code
+    submenu:
+      - name: IT
+        icon:	fa fa-codepen
+        config: pro-recommend
+      - name: Python
+        icon: fa fa-python
+        config: python
+
+  - name: 建站
+    icon: fa fa-code
+    submenu:
+      - name: 服务商
+        icon:	fa fa-codepen
+        config: webService
+      - name: 域名
+        icon:
+        config: domainName
+
+  - name: 生活服务
+    icon:
+    config: life
+
+commonly:
+  - name: 哔哩哔哩
+    url: https://www.bilibili.com/
+    img: /images/logos/bilibili.png
+    description: 哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。
+  - name: 漫猫动漫BT下载
+    url: http://www.comicat.org/
+    img: /images/logos/comm.png
+    description: 动画 漫画 Galgame 游戏 动漫音乐 片源 RAW BT下载站 BT分享页 BT发布页 字幕组 下载 Torrent
+  - name: ArchWiki
+    url: https://wiki.archlinux.org/
+    img: /images/logos/comm.png
+    description: ArchLinux 的百科
+  - name: github
     url: https://github.com/
     img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
+    description: 代码托管平台
 
-myBlog:
-  - name: HCLonely Blog
-    url: https://blog.hclonely.com/
-    img: /images/logos/myBlog.png
-    description: 一个懒人的博客。
+audio:
+  - name: 哔哩哔哩
+    url: https://www.bilibili.com/
+    img: /images/logos/bilibili.png
+    description: 弹幕视频网站, 脱胎于 AcFun, 早期为ACGN社区.
+  - name: AcFun弹幕视频网
+    url: https://www.acfun.cn/
+    img: /images/logos/comm.png
+    description: 弹幕视频网站,大概是中国最早的acgn内容社区.
+  - name: SubHD
+    url: https://subhd.tv/
+    img: /images/logos/comm.png
+    description: 字幕下载平台,包含电影,电视,动画等不同媒体的字幕.
 
-about:
-  url: /about/
-  icon: far fa-heart
-  name: 关于本站
+games:
+  - name: Nintendo
+    url: https://my.nintendo.com/?lang=zh-TW
+    img: /images/logos/comm.png
+    description: 任天堂账号管理
+  - name: 口袋图鉴
+    url: https://www.pokedex.app/zh/home
+    img: /images/logos/comm.png
+    description: 宝可梦图鉴, wiki
 
-aboutPage:
-  website:
-    head: 关于本站
-    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
-  webmaster:
-    head: 关于站长
-    name: HCLonely
-    url: https://blog.hclonely.com/
-    img: /images/logos/myblog.png
-    description: 懒人一个
-    html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
+image:
+  - name: wallhaven
+    url: https://wallhaven.cc/
+    img: /images/logos/comm.png
+    description: 壁纸平台. Awesome Wallpapers
+  - name: WallHere
+    url: https://wallhere.com/
+    img: /images/logos/comm.png
+    description: 世界著名的壁纸网站 电脑桌面壁纸 - WallHere 壁纸库
+  - name: pexels
+    url: https://www.pexels.com/zh-cn/
+    img: /images/logos/comm.png
+    description: 免费素材图片和视频，可以在任何地方使用。✓ 高质量 ✓ 100% 免费✓ 无需注明归属
+
+tools:
+  - name: Deepl翻译
+    url: https://www.deepl.com/translator#zh/en/%E5%8C%85
+    img: /images/logos/comm.png
+    description: 语言翻译软件
+  - name: waifu2x
+    url: https://waifu2x.udp.jp/index.zh-CN.html
+    img: /images/logos/comm.png
+    description: 图像在线放大软件
+  - name: speedtest
+    url: https://www.speedtest.net/
+    img: /images/logos/comm.png
+    description: 在线测试网速的软件
+  - name: 标准地图服务
+    url: http://bzdt.ch.mnr.gov.cn/index.html
+    img: /images/logos/comm.png
+    description: 标准地图依据中国和世界各国国界线画法标准编制而成，可用于新闻宣传用图、书刊报纸插图、广告展示背景图、工艺品设计底图等，也可作为编制公开版地图的参考底图。
+    
+
+archlinux:
+  - name: ArchWiki
+    url: https://wiki.archlinux.org/
+    img: /images/logos/comm.png
+    description: ArchLinux 的百科
+  - name: archlinux 简明指南
+    url: https://arch.icekylin.online/
+    img: /images/logos/comm.png
+    description: 本指南包含 archlinux 安装、配置、维护等，帮助新手快速上手
+  - name: Arch Linux 安装使用教程
+    url: https://archlinuxstudio.github.io/ArchLinuxTutorial/#/
+    img: /images/logos/comm.png
+    description: 每日实时更新！包含从 archlinux 安装,科学上网,翻墙,到显卡驱动、日常软件配置、媒体制作、编程、加密货币入门等众多内容.本教程为推动自由软件运动而编写.
+  - name: 腾讯云安装 Arch Linux 过程记录
+    url: https://zhuanlan.zhihu.com/p/107099477
+    img: /images/logos/comm.png
+    description: 知乎教程,腾讯云安装ArchLinux
+pro-recommend:
+  - name: 图灵社区
+    url: https://www.ituring.com.cn
+    img: /images/logos/comm.png
+    description: 主要出版领域包括计算机、电子电气、数学统计、科普等，通过引进国际高水平的教材、专著
+  - name: 书栈网 
+    url: https://www.bookstack.cn/cate
+    img: /images/logos/comm.png
+    description: IT互联网开源编程书籍阅读分享网站
+
+webService:
+  - name: Vultr 
+    url: https://my.vultr.com/welcome/
+    img: /images/logos/comm.png
+    description: vps 服务商, 包月订阅
+  - name: RackNerd 
+    url: https://www.racknerd.com
+    img: /images/logos/comm.png
+    description: vps 服务商,也提供域名等服务
+  - name: 腾讯云 
+    url: https://cloud.tencent.com/
+    img: /images/logos/comm.png
+    description: 国内服务商,提供域名,备案,服务器购买等服务
+  - name: Google Cloud 
+    url: https://cloud.google.com/?hl=zh-CN
+    img: /images/logos/comm.png
+    description: 谷歌云
+domainName:
+  - name: cloudflare
+    url: https://dash.cloudflare.com/
+    img: /images/logos/comm.png
+    description: CDN 服务, 提供域名等一些网站服务
+
+ 
+  
+
+life:
+  - name: 浙江政务服务网
+    url: http://www.zjzwfw.gov.cn/zjservice/front/index/page.do?webId=1
+    img: /images/logos/comm.png
+    description: 
+  - name: 浙江24365大学生就业服务平台
+    url: http://www.ejobmart.cn/jyxt-v5/jyweb/webIndex.zf
+    img: /images/logos/comm.png
+    description: 
+  - name: 公安部互联网交通安全综合服务管理平台
+    url: https://gab.122.gov.cn/m/index/
+    img: /images/logos/comm.png
+    description: 
+
+# about:
+#   url: /about/
+#   icon: far fa-heart
+#   name: 关于本站
+
+# aboutPage:
+#   website:
+#     head: 关于本站
+#     html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+#   webmaster:
+#     head: 关于站长
+#     name: HCLonely
+#     url: https://blog.hclonely.com/
+#     img: /images/logos/myblog.png
+#     description: 懒人一个
+#     html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
 since: 2020
 
 busuanzi:
-  enable: true
+  enable: false
   position: sidebar # 'footer','sidebar'
   pv: 本站总访问量$pv
   uv: 本站总访客数$uv
