@@ -82,6 +82,14 @@ menu:
         config: porn
 
 commonly:
+  - name: 个人博客
+    url: http://blog.lain.buzz/
+    img: /images/logos/blog.png
+    description: 懒人博客,什么都有
+  - name: 网盘
+    url: https://share.lain.buzz
+    img: /images/logos/onedrive.png
+    description: 自建网盘,应该什么都有
   - name: 哔哩哔哩
     url: https://www.bilibili.com/
     img: /images/logos/bilibili.png
@@ -120,6 +128,10 @@ audio:
     url: https://subhd.tv/
     img: /images/logos/subhd.png
     description: 字幕下载平台,包含电影,电视,动画等不同媒体的字幕.
+  - name: Bangumi 番组计划
+    url: https://bangumi.tv/
+    img: /images/logos/bangumi.png
+    description: ACGN 讨论社区
 
 games:
   - name: Nintendo
